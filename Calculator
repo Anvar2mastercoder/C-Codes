@@ -1,0 +1,43 @@
+#include <iostream>
+
+using namespace std;
+
+
+	int main()
+	{
+		int op;
+		float ans = 999;
+		long num1 = 77;
+		long num2 = 99;
+
+		cout << "Please enter your choice." << endl;
+		cout << "1. Add" << endl;
+		cout << "2. Subtract" << endl;
+		cout << "3. Multiply" << endl;
+		cout << "4. Divide" << endl;
+		cin >> op;
+		cout << "Enter number 1." << endl;
+		cin >> num1;
+		cout << "Enter number 2." << endl;
+		cin >> num2;
+		if (op == 1) {
+			ans = num1 + num2;
+		}
+		else if (op == 2) {
+			ans = num1 - num2;
+		}
+		else if (op == 3) {
+			ans = num1 * num2;
+		}
+		else if (op == 4) {
+			ans = num1 / num2;
+		}
+		else {
+			cout << "Error" << endl;
+		}
+		cout << "The answer is " << ans << "." << endl;
+
+
+		return 0;
+
+	}
