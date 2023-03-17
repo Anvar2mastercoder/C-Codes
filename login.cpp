@@ -1,3 +1,5 @@
+//This is a code to make one huge app, made from complete c++. There is no good GUI.
+
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
